@@ -1,0 +1,38 @@
+backend/cache/
+backend/__pycache__/
+
+cd ~/Desktop/seasnap-ft
+cat > .gitignore << 'EOF'
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files
+*.csv
+*.tif
+*.nc
+
+# Uploads
+backend/uploads/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+EOF
+
+# data/ETOPO1_Bed_g_geotiff.tif
+# data/Outside_EEZ_CTD_QC.csv
+
+backend/EEZ.shp
+backend/EEZ.shx
+backend/convert.py
