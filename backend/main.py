@@ -60,11 +60,11 @@ INSTRUMENT_CONFIG: dict[str, dict] = {
     "ctd": {
         "data_folder": os.environ.get(
             "SEASNAP_CTD_DATA_FOLDER",
-            "/home/ishitha/CTD/",
+            "/home/incois/PAJO/pplWorks/Ishita/Final QC/CTD",
         ),
         "meta_folder": os.environ.get(
             "SEASNAP_CTD_META_FOLDER",
-            "/home/ishitha/CTD/metadata/",
+            "/home/incois/PAJO/pplWorks/Ishita/Final QC/CTD/Metadata/Filtered Metadata",
         ),
         "table": "profiles_ctd",
         "column_map": {
@@ -100,11 +100,11 @@ INSTRUMENT_CONFIG: dict[str, dict] = {
     "xbt": {
         "data_folder": os.environ.get(
             "SEASNAP_XBT_DATA_FOLDER",
-            "/home/ishitha/XBT/",
+            "/home/incois/PAJO/pplWorks/Ishita/Final QC/XBT",
         ),
         "meta_folder": os.environ.get(
             "SEASNAP_XBT_META_FOLDER",
-            "/home/ishitha/XBT/metadata/",
+            "/home/incois/PAJO/pplWorks/Ishita/Final QC/XBT/Metadata/Filtered Metadata",
         ),
         "table": "profiles_xbt",
         "column_map": {
@@ -125,11 +125,11 @@ INSTRUMENT_CONFIG: dict[str, dict] = {
     "xctd": {
         "data_folder": os.environ.get(
             "SEASNAP_XCTD_DATA_FOLDER",
-            "/home/ishitha/XCTD/",
+            "/home/incois/PAJO/pplWorks/Ishita/Final QC/XCTD",
         ),
         "meta_folder": os.environ.get(
             "SEASNAP_XCTD_META_FOLDER",
-            "/home/ishitha/XCTD/metadata/",
+            "/home/incois/PAJO/pplWorks/Ishita/Final QC/XCTD/Metadata/Filtered Metadata/",
         ),
         "table": "profiles_xctd",
         "column_map": {

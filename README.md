@@ -34,8 +34,11 @@ Update the following paths:
 - **Metadata CSV** – path to your metadata file.
 - **Data Directory** – folder containing the CTD/XBT/XCTD profile files.
 
+** Lines - 63, 67 (CTD) ,
+          103, 107(XBT) , 
+          128 ,132(XCTD)
+        
 Example:
-
 ```python
 METADATA_PATH = "/path/to/metadata.csv"
 DATA_ROOT = "/path/to/profile_data/"
